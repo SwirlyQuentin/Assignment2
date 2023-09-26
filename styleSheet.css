@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.flex-item-left{
+    background-color: blue;
+    padding: 10px;
+    flex: 25%;
+
+}
+
+.flex-item-right{
+    background-color: red;
+    padding: 10px;
+    flex: 25%;
+}
+.flex-item-far-right{
+    background-color: pink;
+    padding: 10px;
+    flex: 25%;
+}
+
+.flex-far-far-right{
+    background-color: orange;
+    padding: 10px;
+    flex: 25%;
+}
+
+
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left, .flex-far-far-right, .flex-item-far-right{
+        flex: 100%;
+    }
+}

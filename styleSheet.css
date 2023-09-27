@@ -144,6 +144,7 @@ html{
     list-style-type: square;
     list-style-position: outside;
     margin-left: 10px;
+    order: 1;
 }
 
 .list-container{

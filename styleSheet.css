@@ -1,3 +1,77 @@
+<<<<<<< HEAD
+*{
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.flex-item-left{
+    background-color: blue;
+    padding: 10px;
+    flex: 25%;
+
+}
+
+.flex-item-right{
+    background-color: red;
+    padding: 10px;
+    flex: 25%;
+}
+.flex-item-far-right{
+    background-color: pink;
+    padding: 10px;
+    flex: 25%;
+}
+
+.flex-far-far-right{
+    background-color: orange;
+    padding: 10px;
+    flex: 25%;
+}
+
+
+@media (max-width: 800px) {
+    .mikoPicture{
+        flex: 100%;
+    }
+}
+
+.mikoPicture{
+    max-width: 15%;
+    max-height: 15%;
+    border: 5px solid black;
+    padding: 3px;
+    margin: 5px;
+    flex: 33%;
+}
+
+.pictureWords{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-stretch: condensed;
+}
+.item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+
+}
+.caption{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+=======
 *{
     box-sizing: border-box;
     background-color: pink;
@@ -65,4 +139,5 @@
 }
 .caption{
     display: block;
+>>>>>>> a9be907eebccb02293dfaaf6b974765f72bdd331
 }

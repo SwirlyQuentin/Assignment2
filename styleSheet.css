@@ -8,6 +8,7 @@ html{
     padding: 20px;
     border: 40px solid transparent;
     border-color: pink;
+    border-radius: 10px;
     border-image: url(pinkpaws.jpg) 100 round;
 }
 
@@ -140,6 +141,7 @@ html{
 .list-container{
     width: 250px;
     height: 200px;
+
 }
 
 .quote{

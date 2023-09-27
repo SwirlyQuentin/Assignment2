@@ -8,7 +8,6 @@ html{
     padding: 20px;
     border: 40px solid transparent;
     border-color: pink;
-    border-radius: 10px;
     border-image: url(pinkpaws.jpg) 100 round;
 }
 
@@ -55,9 +54,11 @@ html{
     max-width: 15%;
     max-height: 15%;
     border: 5px solid black;
+    border-radius: 25px;
     padding: 3px;
     margin: 5px;
     flex: 33%;
+    float: right;
     
 }
 
@@ -99,11 +100,18 @@ html{
 
 @keyframes catSlide {
     from{
-        width: 0px;
-        opacity: 0;
+        width: 100px;
     }
     to{
         width: 400px;
+    }
+}
+
+@keyframes textSlide {
+    from{
+        opacity: 0;
+    }
+    to{
         opacity: 1;
     }
 }

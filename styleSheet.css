@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    background-color: pink;
 }
 
 .flex-container{
@@ -36,7 +37,32 @@
 
 
 @media (max-width: 800px) {
-    .flex-item-right, .flex-item-left, .flex-far-far-right, .flex-item-far-right{
+    .mikoPicture{
         flex: 100%;
     }
+}
+
+.mikoPicture{
+    max-width: 15%;
+    max-height: 15%;
+    border: 5px solid black;
+    padding: 3px;
+    margin: 5px;
+    flex: 33%;
+}
+
+.pictureWords{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+
+}
+.caption{
+    display: block;
 }

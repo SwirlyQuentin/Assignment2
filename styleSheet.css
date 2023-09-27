@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
     background-color: pink;
+    
+}
+
+html{
+    padding: 20px;
+    border: 40px solid transparent;
+    border-image: url(pinkpaws.jpg) 100 round;
 }
 
 .flex-container{
@@ -49,6 +56,7 @@
     padding: 3px;
     margin: 5px;
     flex: 33%;
+    
 }
 
 .pictureWords{
@@ -85,10 +93,18 @@
 @keyframes catSlide {
     from{
         width: 0px;
+        opacity: 0;
     }
     to{
         width: 400px;
+        opacity: 1;
     }
+}
+
+.animation{
+    width: 100;
+    height: 100;
+    background-color: white;
 }
 
 .animation:hover{
@@ -98,4 +114,11 @@
     animation-name: catSlide;
     animation-duration: 2s;
     font-size: x-large;
+}
+
+.animationContainer{
+    width: 100px;
+    height: 100px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
 }

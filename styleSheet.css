@@ -122,3 +122,16 @@ html{
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.list{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 10px;
+}
+
+.list-container{
+    width: 250px;
+    height: 200px;
+}
